@@ -1,0 +1,41 @@
+body {
+	background-color: #804040;
+	}
+table th {
+	width: 18%;
+	text-align: left;
+	border: 1px solid #ddd;
+	padding: 8px; 
+	color: black; 
+	background-color:green;
+	}
+	
+table td {
+	width: 18%;
+	text-align: left;
+	border: 1px solid #ddd;
+	padding: 8px;
+	border-collapse:collapse;
+	}
+
+#countryinfo tr:not(:first-child):hover {
+    background-color: #0000ff;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#titel {
+	background-color:#808080; 
+	color:black;
+	}
+	
+#titel2 {
+	background-color:#535353; 
+	color:black;
+	}
+
+@media screen {
+    div { 
+    border-collapse: collapse;
+    }
+}
